@@ -11,6 +11,7 @@ This paper addresses the significant challenge of **Visual Automatic Speech Reco
 To tackle this, the authors introduce a novel method named **VALLR (Visual ASR Language Model for Lip Reading)**. The core idea behind this approach is a two-stage, phoneme-centric framework. First, a vision model analyzes the video of lip movements and predicts a sequence of phonemes, which are the basic units of sound. This simplifies the complex task of direct word recognition. Second, this phoneme sequence is fed into a fine-tuned Large Language Model (LLM), which uses its advanced understanding of language to reconstruct a coherent sentence. This method is distinct from previous work because it separates the visual recognition task from the linguistic reconstruction task, making the model highly data-efficient and more interpretable.
 
 ### Architecture
+![VALLR](./VALLR.png)
 
 The proposed method is built upon a **two-stage architecture combining a Vision Transformer (ViT) and an LLM**. This architecture is designed to first interpret the visual data into a basic linguistic format (phonemes) and then use a powerful language model to form complete sentences.
 
