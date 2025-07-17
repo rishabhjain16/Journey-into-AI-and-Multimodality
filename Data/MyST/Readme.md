@@ -1,8 +1,8 @@
 # MyST Children's Conversational Speech
 
-**Paper:** [https://arxiv.org/pdf/2309.13347](https://arxiv.org/pdf/2309.13347)
-**Data-Path:** [https://catalog.ldc.upenn.edu/LDC2021S05](https://catalog.ldc.upenn.edu/LDC2021S05)
-**Year:** 2021
+**Paper:** [https://arxiv.org/pdf/2309.13347](https://arxiv.org/pdf/2309.13347)      
+**Data-Path:** [https://catalog.ldc.upenn.edu/LDC2021S05](https://catalog.ldc.upenn.edu/LDC2021S05)      
+**Year:** 2021      
 
 ## Summary
 
