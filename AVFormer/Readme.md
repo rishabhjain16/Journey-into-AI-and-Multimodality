@@ -6,9 +6,9 @@
 
 ## Summary
 
-This paper addresses the significant challenge of creating robust and adaptable **Audiovisual Automatic Speech Recognition (AV-ASR)** systems. Traditional methods for training AV-ASR models require large, specialized audiovisual datasets, which are costly and difficult to obtain. Furthermore, these models often require extensive end-to-end training and struggle to generalize to new, unseen domains (a "zero-shot" setting)[2]. The core problem is how to effectively leverage visual information (like a speaker's context or environment) to improve speech recognition, especially in noisy conditions, without the prohibitive cost of retraining massive models from scratch[3].
+This paper addresses the significant challenge of creating robust and adaptable **Audiovisual Automatic Speech Recognition (AV-ASR)** systems. Traditional methods for training AV-ASR models require large, specialized audiovisual datasets, which are costly and difficult to obtain. Furthermore, these models often require extensive end-to-end training and struggle to generalize to new, unseen domains (a "zero-shot" setting). The core problem is how to effectively leverage visual information (like a speaker's context or environment) to improve speech recognition, especially in noisy conditions, without the prohibitive cost of retraining massive models from scratch.
 
-To tackle this, the authors introduce **AVFormer**, a novel and lightweight method for augmenting existing, powerful, audio-only ASR models with visual capabilities. The key idea is to take a state-of-the-art, pre-trained ASR model and keep it "frozen," meaning its core parameters are not changed. Instead, visual information is injected into this model using small, trainable modules called **adapters**[3]. This approach is highly efficient, requiring minimal new parameters and only a small amount of weakly labeled video data for training[2]. A crucial innovation is a **two-phase curriculum learning strategy** that first adapts the model to the new audio domain and then integrates the visual information, ensuring the model learns to use both streams effectively.
+To tackle this, the authors introduce **AVFormer**, a novel and lightweight method for augmenting existing, powerful, audio-only ASR models with visual capabilities. The key idea is to take a state-of-the-art, pre-trained ASR model and keep it "frozen," meaning its core parameters are not changed. Instead, visual information is injected into this model using small, trainable modules called **adapters**. This approach is highly efficient, requiring minimal new parameters and only a small amount of weakly labeled video data for training. A crucial innovation is a **two-phase curriculum learning strategy** that first adapts the model to the new audio domain and then integrates the visual information, ensuring the model learns to use both streams effectively.
 
 ### Architecture
 
@@ -42,7 +42,7 @@ The key zero-shot results are summarized below. Notably, AVFormer was trained on
 | Method | Modality | How2 (WER %) | VisSpeech (WER %) | Ego4D (WER %) | LibriSpeech (WER %) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | AVATAR  | A+V | 18.37% | 35.59% | 71.97% | 24.08% |
-| BEST-RQ [4] | Audio | 15.32% | 16.69% | 68.34% | 5.60% |
+| BEST-RQ  | Audio | 15.32% | 16.69% | 68.34% | 5.60% |
 | **AVFormer (Ours)** | **A+V** | **13.69%** | **16.60%** | **64.75%** | **4.36%** |
 
 An important finding from ablation studies was that the **two-phase curriculum learning strategy is essential**. Without it, the model fails to properly utilize the visual information and performs worse than the audio-only baseline. The experiments also showed that using a small number of visual tokens (4 frames) and simple feed-forward adapters provided the best balance of performance and efficiency.
@@ -63,7 +63,7 @@ The **AVFormer** architecture is designed to efficiently inject visual context i
 
 ## Implications and Future Work
 
-The implications of this research are significant. AVFormer provides a practical and highly efficient blueprint for adapting large, pre-trained unimodal models for multimodal tasks. It demonstrates that it is possible to achieve state-of-the-art performance in AV-ASR without the need for massive labeled datasets or costly end-to-end retraining[3]. This parameter-efficient approach is increasingly important as foundation models continue to grow in size and complexity[3].
+The implications of this research are significant. AVFormer provides a practical and highly efficient blueprint for adapting large, pre-trained unimodal models for multimodal tasks. It demonstrates that it is possible to achieve state-of-the-art performance in AV-ASR without the need for massive labeled datasets or costly end-to-end retraining. This parameter-efficient approach is increasingly important as foundation models continue to grow in size and complexity.
 
 By successfully improving ASR in challenging and diverse environments (instructional, egocentric), this work opens up possibilities for more robust speech recognition in real-world applications, such as video captioning, meeting transcription, and assistive technologies. The paper establishes a strong case for using lightweight adapters and curriculum learning as a go-to strategy for multimodal model adaptation.
 
@@ -80,11 +80,3 @@ By successfully improving ASR in challenging and diverse environments (instructi
 }
 ```
 
- https://arxiv.org/pdf/2303.16501.pdf
-[2] https://openaccess.thecvf.com/content/CVPR2023/papers/Seo_AVFormer_Injecting_Vision_Into_Frozen_Speech_Models_for_Zero-Shot_AV-ASR_CVPR_2023_paper.pdf
-[3] https://research.google/blog/avformer-injecting-vision-into-frozen-speech-models-for-zero-shot-av-asr/
-[4] https://www.reddit.com/r/MachineLearning/comments/1gb74j6/r_paper_summaries_for_some_of_our_papers_that/
-[5] https://arxiv.org/abs/2303.16501
-[6] https://arxiv.org/abs/2306.04787
-[7] https://direct.mit.edu/coli/article/39/2/267/1425/Automatically-Assessing-Machine-Summary-Content
-[8] https://www.calhealthreport.org/2024/12/17/analysis-as-a-former-attorney-for-violence-survivors-heres-why-restorative-justice-gives-me-hope/
