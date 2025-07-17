@@ -2,8 +2,8 @@
 
 **Paper:** https://arxiv.org/pdf/2503.20215  
 **Code:** [https://github.com/QwenLM/Qwen2.5-Omni](https://github.com/QwenLM/Qwen2.5-Omni)  
-**Year:** 2025
-**Hugging Face:** [https://huggingface.co/Qwen](https://huggingface.co/Qwen)
+**Year:** 2025   
+**Hugging Face:** [https://huggingface.co/Qwen](https://huggingface.co/Qwen)   
 
 ## Summary
 
