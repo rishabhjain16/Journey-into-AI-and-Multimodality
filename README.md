@@ -27,10 +27,10 @@ Example
 ## Blogs and Articles:
 | Title | Link |
 |-------|------|
-| Understanding Multimodal LLMs | [📁 Multimodal-LLM](./Blogs/MultiLLM/) |
+| Understanding Multimodal LLMs | [📁 Multimodal-LLM](./Blogs/Multi-LLM/) |
 
 
 ## Hugging Face Stuff: 
 | Project | Description | Link | TASK |
 |---------|-------------|------|------|
-| VALLR | Visual ASR Language Model for Lip Reading | [📁 VALLR](./VALLR/) | TTS |
+| Dia-1.6B  | 1.6 billion parameter text-to-speech (TTS) model | [📁 Dia](./HF/Dia/) | TTS |
