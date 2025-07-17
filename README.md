@@ -16,12 +16,12 @@ Example
 
 | Project | Description | Link | TASK |
 |---------|-------------|----------|----------------|
-| VALLR | Visual ASR Language Model for Lip Reading | [📁 VALLR](./VALLR/) | Visual Speech Recognition |
-| AVFormer | Injecting Vision into Frozen Speech Models for Zero-Shot AV-ASR | [📁 AVFormer](./AVFormer/) | Audio Video Speech Recognition | 
-| HTR-VT | Handwritten Text Recognition with Vision Transformer (uses CTC) | [📁 HTR-VT](./HTR-VT/) | Handwritten Text Recogntion | 
-| AST | Audio Spectrogram Transformer| [📁 AST](./AST/) | Audio Classification | 
-| LAVIS | A Library for Language-Vision Intelligence| [📁 LAVIS](./LAVIS/) | Language Vision - CLIP, BLIP, X-InstructBLIP, etc.| 
-| Qwen2.5 - Omni | An end-to-end multimodal model designed to perceive diverse modalities, including text, images, audio, and video, while simultaneously generating text and natural speech responses in a streaming manner| [📁 Qwen2.5-Omni](./Omni/) | Multi-Modal LLM, MultiTask| 
+| VALLR | Visual ASR Language Model for Lip Reading | [📁 VALLR](./Papers/VALLR/) | Visual Speech Recognition |
+| AVFormer | Injecting Vision into Frozen Speech Models for Zero-Shot AV-ASR | [📁 AVFormer](./Papers/AVFormer/) | Audio Video Speech Recognition | 
+| HTR-VT | Handwritten Text Recognition with Vision Transformer (uses CTC) | [📁 HTR-VT](./Papers/HTR-VT/) | Handwritten Text Recogntion | 
+| AST | Audio Spectrogram Transformer| [📁 AST](./Papers/AST/) | Audio Classification | 
+| LAVIS | A Library for Language-Vision Intelligence| [📁 LAVIS](./Papers/LAVIS/) | Language Vision - CLIP, BLIP, X-InstructBLIP, etc.| 
+| Qwen2.5 - Omni | An end-to-end multimodal model designed to perceive diverse modalities, including text, images, audio, and video, while simultaneously generating text and natural speech responses in a streaming manner| [📁 Qwen2.5-Omni](./Papers/Omni/) | Multi-Modal LLM, MultiTask| 
 
 
 ## Blogs and Articles:
