@@ -25,12 +25,12 @@ Example
 
 
 ## Blogs and Articles:
-| Project | Description | Link | TASK |
-|---------|-------------|------|------|
-| VALLR | Visual ASR Language Model for Lip Reading | [📁 VALLR](./VALLR/) | Visual Speech Recognition |
+| Title | Link |
+|-------|------|
+| Understanding Multimodal LLMs | | [📁 Multimodal-LLM](./MultiLLM/) |
 
 
 ## Hugging Face Stuff: 
 | Project | Description | Link | TASK |
 |---------|-------------|------|------|
-| VALLR | Visual ASR Language Model for Lip Reading | [📁 VALLR](./VALLR/) | Visual Speech Recognition |
+| VALLR | Visual ASR Language Model for Lip Reading | [📁 VALLR](./VALLR/) | TTS |
