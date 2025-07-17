@@ -12,6 +12,7 @@ To overcome this limitation, the authors introduce **HTR-VT**, a data-efficient 
 
 ### Architecture
 ![HTR-VT](./HTR-VT.png)
+
 The proposed HTR-VT model integrates the strengths of both CNNs and Transformers in a streamlined, encoder-only architecture. This design is specifically tailored for data-efficient learning in HTR tasks.
 
 The model is composed of three main components:
