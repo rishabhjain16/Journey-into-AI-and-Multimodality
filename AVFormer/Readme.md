@@ -11,7 +11,7 @@ This paper addresses the significant challenge of creating robust and adaptable 
 To tackle this, the authors introduce **AVFormer**, a novel and lightweight method for augmenting existing, powerful, audio-only ASR models with visual capabilities. The key idea is to take a state-of-the-art, pre-trained ASR model and keep it "frozen," meaning its core parameters are not changed. Instead, visual information is injected into this model using small, trainable modules called **adapters**. This approach is highly efficient, requiring minimal new parameters and only a small amount of weakly labeled video data for training. A crucial innovation is a **two-phase curriculum learning strategy** that first adapts the model to the new audio domain and then integrates the visual information, ensuring the model learns to use both streams effectively.
 
 ### Architecture
-
+./Avformer.png
 The proposed method is built upon a frozen, state-of-the-art audio ASR model (BEST-RQ) and a frozen visual feature extractor (CLIP). The innovation lies in how visual information is integrated without altering these powerful base models.
 
 The architecture consists of three main parts:
