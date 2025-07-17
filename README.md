@@ -27,7 +27,7 @@ Example
 ## Blogs and Articles:
 | Title | Link |
 |-------|------|
-| Understanding Multimodal LLMs | | [📁 Multimodal-LLM](./MultiLLM/) |
+| Understanding Multimodal LLMs | | [📁 Multimodal-LLM](./Blogs/MultiLLM/) |
 
 
 ## Hugging Face Stuff: 
