@@ -11,3 +11,4 @@ This repository chronicles the ongoing exploration of multimodal AI and Transfor
 | HTR-VT | Handwritten Text Recognition with Vision Transformer (uses CTC) | [📁 HTR-VT](./HTR-VT/) | Handwritten Text Recogntion | 
 | AST | Audio Spectrogram Transformer| [📁 AST](./AST/) | Audio Classification | 
 | LAVIS | A Library for Language-Vision Intelligence| [📁 LAVIS](./LAVIS/) | Language Vision - CLIP, BLIP, X-InstructBLIP, etc.| 
+| Qwen2.5 - Omni | An end-to-end multimodal model designed to perceive diverse modalities, including text, images, audio, and video, while simultaneously generating text and natural speech responses in a streaming manner| [📁 Qwen2.5-Omni](./Omni/) | Multi-Modal LLM, MultiTask| 
