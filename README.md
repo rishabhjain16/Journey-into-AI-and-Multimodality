@@ -1,5 +1,5 @@
-# Journey-to-Multimodality
-This repository chronicles the ongoing exploration of multimodal AI and Transformer models, curating summaries of groundbreaking research that integrates various sensory inputs such as vision, sound, and language into cohesive AI systems. It showcases some of the coolest and most exciting work happening in the field, highlighting cutting-edge advancements that blend multiple sensory modalities to expand the capabilities of AI. Additionally, this repository includes my personal notes and insights, making it easier to access and understand the latest research. It’s a journey into the future of AI perception and cognition, offering a curated resource for those eager to explore how AI is evolving to process and interact with the world in increasingly human-like ways.
+# Journey-to-Multimodality-AI-Stuff
+This repository chronicles the ongoing exploration of multimodal AI and Transformer models, curating summaries of groundbreaking research that integrates various sensory inputs such as vision, sound, and language into cohesive AI systems. It showcases some of the coolest and most exciting work happening in the field, highlighting cutting-edge advancements that blend multiple sensory modalities to expand the capabilities of AI. Additionally, this repository includes my personal notes and insights, making it easier to access and understand the latest research. It’s a journey into the future of AI perception and cognition, offering a curated resource for those eager to explore how AI is evolving to process and interact with the world in increasingly human-like ways. Also addons to interesting articles, Hugging Face stuff or any datasets.
 
 <!--
 Standard Template to Add things: 
@@ -34,3 +34,9 @@ Example
 | Project | Description | Link | TASK |
 |---------|-------------|------|------|
 | Dia-1.6B  | 1.6 billion parameter text-to-speech (TTS) model | [📁 Dia](./HF/Dia/) | TTS |
+
+
+## Datasets: 
+| Name | Description | Path | Usecase |
+|---------|-------------|------|------|
+| MyST | Children's Conversational Speech | [📁 MyST](./Data/MyST/)  | ASR, TTS |
