@@ -2,6 +2,7 @@
 
 **Paper:** [https://arxiv.org/pdf/2409.08573](https://arxiv.org/pdf/2409.08573)  
 **Code:** [https://github.com/YutingLi0606/HTR-VT](https://github.com/YutingLi0606/HTR-VT) 
+
 **Year:** 2024
 
 ## Summary
