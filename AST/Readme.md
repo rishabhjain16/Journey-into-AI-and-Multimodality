@@ -11,7 +11,7 @@ This paper challenges the dominance of Convolutional Neural Networks (CNNs) in a
 The authors propose a model that directly applies a Transformer architecture to an audio spectrogram. The core idea is to treat the spectrogram like an image, splitting it into a sequence of patches and feeding them into a Transformer encoder. A key innovation is a method for **transferring knowledge from Vision Transformer (ViT) models pre-trained on the large-scale ImageNet dataset**. This cross-modality pre-training is crucial, as it allows the AST to achieve high performance even on smaller audio datasets, which typically lack the millions of samples needed to train a Transformer from scratch. The AST sets a new state-of-the-art on multiple major audio classification benchmarks, demonstrating that a pure Transformer can outperform established CNN-attention hybrid models.
 
 ### Architecture
-
+![AST](./AST.png)
 The AST architecture is intentionally simple and directly adapts the Vision Transformer (ViT) for the audio domain. It processes a spectrogram without relying on traditional convolutional layers for feature extraction.
 
 The model's pipeline consists of the following steps:
