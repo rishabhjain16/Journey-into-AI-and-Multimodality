@@ -1,6 +1,6 @@
 # Dia-1.6B by Nari Labs
 
-**Model:** Dia-1.6B
+**Model:** Dia-1.6B  
 **Repository:** [https://huggingface.co/nari-labs/Dia-1.6B-0626](https://huggingface.co/nari-labs/Dia-1.6B-0626)  
 **Github:** [https://github.com/nari-labs/dia](https://github.com/nari-labs/dia)  
 **License:** Apache 2.0
