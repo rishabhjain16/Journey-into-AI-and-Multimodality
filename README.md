@@ -5,6 +5,7 @@ This repository documents the ongoing exploration of multimodal AI, curating sum
 
 | Project | Description | Link | Domain |
 |---------|-------------|------|--------|
-| VALLR | Visual ASR Language Model for Lip Reading | [📁 VALLR](./VALLR/) | VSR |
-| AVFormer | Injecting Vision into Frozen Speech Models for Zero-Shot AV-ASR | [📁 AVFormer](./AVFormer/) | AVSR | 
-| HTR-VT | Handwritten Text Recognition with Vision Transformer (uses CTC) | [📁 HTR-VT](./HTR-VT/) | HTR | 
+| VALLR | Visual ASR Language Model for Lip Reading | [📁 VALLR](./VALLR/) | Visual Speech Recognition |
+| AVFormer | Injecting Vision into Frozen Speech Models for Zero-Shot AV-ASR | [📁 AVFormer](./AVFormer/) | Audio Video Speech Recognition | 
+| HTR-VT | Handwritten Text Recognition with Vision Transformer (uses CTC) | [📁 HTR-VT](./HTR-VT/) | Handwritten Text Recogntion | 
+| AST | Audio Spectrogram Transformer (uses CTC) | [📁 HTR-VT](./HTR-VT/) | Audio Classification | 
