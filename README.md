@@ -3,6 +3,7 @@ This repository documents the ongoing exploration of multimodal AI, curating sum
 
 ## Table of Contents
 
-| Project | Description | Link |
-|---------|-------------|------|
-| VALLR | Visual Audio Language Learning and Reasoning | [📁 VALLR](./VALLR/) |
+| Project | Description | Link | Domain |
+|---------|-------------|------|--------|
+| VALLR | Visual ASR Language Model for Lip Reading | [📁 VALLR](./VALLR/) | VSR |
+| AVFOrmer | Injecting Vision into Frozen Speech Models for Zero-Shot AV-ASR | [📁 AVFormer](./AVFormer/) | AVSR | 
