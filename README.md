@@ -1,4 +1,4 @@
-# Journey-to-Multimodality-AI-Stuff
+# Journey into AI, Multimodality and Related Stuff (Including Datasets)
 This repository chronicles the ongoing exploration of multimodal AI and Transformer models, curating summaries of groundbreaking research that integrates various sensory inputs such as vision, sound, and language into cohesive AI systems. It showcases some of the coolest and most exciting work happening in the field, highlighting cutting-edge advancements that blend multiple sensory modalities to expand the capabilities of AI. Additionally, this repository includes my personal notes and insights, making it easier to access and understand the latest research. It’s a journey into the future of AI perception and cognition, offering a curated resource for those eager to explore how AI is evolving to process and interact with the world in increasingly human-like ways. Also addons to interesting articles, Hugging Face stuff or any datasets.
 
 <!--
