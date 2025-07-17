@@ -14,7 +14,7 @@ LAVIS aims to be a **one-stop, modular library** that solves these problems. It 
 
 The LAVIS library is built around a modular and unified design to streamline research and development in language-vision AI.
 
-[!LAVIS](./LAVIS.png)
+![LAVIS](./LAVIS.png)
 
 Its main contributions are:
 *   **Unified Framework**: Provides a single, consistent interface for accessing over 30 pre-trained and fine-tuned checkpoints from foundational models like ALBEF, BLIP, CLIP, and ALPRO.
