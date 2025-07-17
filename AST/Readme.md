@@ -12,6 +12,7 @@ The authors propose a model that directly applies a Transformer architecture to 
 
 ### Architecture
 ![AST](./AST.png)
+
 The AST architecture is intentionally simple and directly adapts the Vision Transformer (ViT) for the audio domain. It processes a spectrogram without relying on traditional convolutional layers for feature extraction.
 
 The model's pipeline consists of the following steps:
