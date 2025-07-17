@@ -12,7 +12,7 @@ This paper introduces **Qwen2.5-Omni**, a unified, end-to-end multimodal model c
 To solve these problems, the authors propose two core innovations. The first is a novel position embedding technique called **TMRoPE (Time-aligned Multimodal RoPE)**, which synchronizes the temporal information between audio and video streams by interleaving them. The second is the **Thinker-Talker architecture**, which separates the tasks of language reasoning and speech generation. The "Thinker" (a large language model) handles text generation, while the "Talker" (a speech model) uses the Thinker's internal states to produce audio tokens concurrently. This design, combined with streaming-optimized encoders and decoders, allows Qwen2.5-Omni to achieve state-of-the-art performance on multimodal benchmarks while maintaining strong capabilities in single-modality tasks.
 
 ### Architecture
-![Omni](./Omni.png)
+![Omni](./omni.png)
 
 Qwen2.5-Omni is built on the **Thinker-Talker architecture**, designed to function as a cohesive, end-to-end trainable system. The Thinker acts as the "brain," processing all input modalities, while the Talker acts as the "mouth," generating speech.
 
