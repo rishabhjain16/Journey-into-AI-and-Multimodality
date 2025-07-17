@@ -1,7 +1,7 @@
 # VALLR: Visual ASR Language Model for Lip Reading
 
-**Paper:** https://arxiv.org/pdf/2503.21408
-**Code:** Code not yet released (The paper states it will be released after the review process)
+**Paper:** [https://arxiv.org/pdf/2503.21408](https://arxiv.org/pdf/2503.21408)  
+**Code:** Code not yet released (The paper states it will be released after the review process)  
 **Year:** 2025
 
 ## Summary
