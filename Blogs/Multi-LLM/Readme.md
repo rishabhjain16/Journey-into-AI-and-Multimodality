@@ -1,7 +1,7 @@
 # Understanding Multimodal LLMs
 
-**Paper:** https://sebastianraschka.com/blog/2024/understanding-multimodal-llms.html
-**Year:** 2024
+**Paper:** https://sebastianraschka.com/blog/2024/understanding-multimodal-llms.html  
+**Year:** 2024  
 
 ## Summary
 
