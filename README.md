@@ -5,8 +5,9 @@ This repository chronicles the ongoing exploration of multimodal AI and Transfor
 ## Table of Contents
 
 | Project | Description | Link | TASK |
-|---------|-------------|------|--------|
+|---------|-------------|----------|----------------|
 | VALLR | Visual ASR Language Model for Lip Reading | [📁 VALLR](./VALLR/) | Visual Speech Recognition |
 | AVFormer | Injecting Vision into Frozen Speech Models for Zero-Shot AV-ASR | [📁 AVFormer](./AVFormer/) | Audio Video Speech Recognition | 
 | HTR-VT | Handwritten Text Recognition with Vision Transformer (uses CTC) | [📁 HTR-VT](./HTR-VT/) | Handwritten Text Recogntion | 
 | AST | Audio Spectrogram Transformer| [📁 AST](./AST/) | Audio Classification | 
+| LAVIS | A Library for Language-Vision Intelligence| [📁 LAVIS](./LAVIS/) | Language Vision - CLIP, BLIP, X-InstructBLIP, etc.| 
