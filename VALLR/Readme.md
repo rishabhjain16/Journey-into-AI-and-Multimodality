@@ -1,5 +1,3 @@
-Of course. I can provide the text from the previous summary without the bracketed numbers. Here is the revised summary:
-
 # VALLR: Visual ASR Language Model for Lip Reading
 
 **Paper:** https://arxiv.org/pdf/2503.21408
