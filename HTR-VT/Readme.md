@@ -1,7 +1,7 @@
 # HTR-VT: Handwritten Text Recognition with Vision Transformer
 
 **Paper:** [https://arxiv.org/pdf/2409.08573](https://arxiv.org/pdf/2409.08573)  
-**Code:** [Publicly available (as stated in the paper)  ](https://github.com/YutingLi0606/HTR-VT)
+**Code:** [https://github.com/YutingLi0606/HTR-VT](https://github.com/YutingLi0606/HTR-VT) 
 **Year:** 2024
 
 ## Summary
