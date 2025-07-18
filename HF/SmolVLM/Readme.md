@@ -56,7 +56,7 @@ The **SmolVLM** architecture consists of an efficient vision encoder, an aggress
 *   **Language Model (SmolLM2)**: The model uses a 1.7B parameter language model as its core. Its context window was extended from its original size to 16,000 tokens, allowing it to process long sequences of interleaved text and images, including multiple images or sequences of video frames.
 *   **MLP Projector**: A simple multi-layer perceptron maps the compressed visual tokens into the language model's input space, allowing the LLM to process them alongside text embeddings.
 
-The diagram below illustrates how these components work together. Images are encoded and then heavily compressed. The resulting lightweight visual tokens are combined with text prompts and fed into the long-context language model, which generates the final textual response.
+The diagram above illustrates how these components work together. Images are encoded and then heavily compressed. The resulting lightweight visual tokens are combined with text prompts and fed into the long-context language model, which generates the final textual response.
 
 *   **Input**: Interleaved Image(s) and Text.
 *   **Processing**:

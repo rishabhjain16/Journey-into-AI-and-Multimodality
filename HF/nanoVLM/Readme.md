@@ -49,7 +49,7 @@ The **nanoVLM** architecture consists of a vision backbone, a language backbone,
     *   A **pixel shuffle** operation, which reduces the number of image tokens to lower computational load.
     *   A linear layer to project the transformed embeddings into the correct dimension.
 
-The diagram below illustrates how these components work together. An image is processed by the SigLIP vision encoder. The resulting embeddings are passed through the Modality Projector, which compresses them. These compressed visual embeddings are then concatenated with the tokenized text prompt and fed into the SmolLM2 language model to generate a final text answer.
+The diagram above illustrates how these components work together. An image is processed by the SigLIP vision encoder. The resulting embeddings are passed through the Modality Projector, which compresses them. These compressed visual embeddings are then concatenated with the tokenized text prompt and fed into the SmolLM2 language model to generate a final text answer.
 
 *   **Input**: Image + Text Prompt
 *   **Processing**:
