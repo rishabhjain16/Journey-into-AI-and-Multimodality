@@ -24,6 +24,7 @@ Example
 | Qwen2.5 - Omni | An end-to-end multimodal model designed to perceive diverse modalities, including text, images, audio, and video, while simultaneously generating text and natural speech responses in a streaming manner| [📁 Qwen2.5-Omni](./Papers/Omni/) | Multi-Modal LLM, MultiTask| 
 | Qwen2-Audio| Large audio-language model (LALM)| [📁 Qwen2-Audio](./Papers/Qwen2-Audio/) | Multi-Modal LLM, Audio Understanding| 
 | Qwen2.5-VL| Large vision-language models (LVLMs) | [📁 Qwen2.5-VL](./Papers/Qwen2.5-VL/) | Multi-Modal LLM, Video Understanding| 
+| Kimi-Audio | Audio understanding, Generation, and Conversation. | [📁 Kimi-Audio](./Papers/Kimi-Audio/) | ASR, Audio Question Answering (AQA), Automatic Audio Captioning (AAC), Speech emotion Recognition (SER), Sound event/Scene Classification (SEC/ASC), E2E conversations|
 
 
 ## Blogs and Articles:
