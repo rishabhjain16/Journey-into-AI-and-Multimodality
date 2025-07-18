@@ -36,7 +36,8 @@ Example
 | Project | Description | Link | TASK |
 |---------|-------------|------|------|
 | Dia-1.6B  | 1.6 billion parameter text-to-speech (TTS) model | [📁 Dia](./HF/Dia/) | TTS |
-
+| smolVLM  | 2B small vision language models  | [📁 smolVLM](./HF/smolVLM/) | VLM |
+| nanoVLM  | training/finetuning small-sized VLMs | [📁 nanoVLM](./HF/nanoVLM/) | VLM |
 
 ## Datasets: 
 | Name | Description | Path | Usecase |
