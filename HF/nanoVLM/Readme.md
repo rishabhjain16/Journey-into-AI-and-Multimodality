@@ -1,8 +1,8 @@
 # nanoVLM: The Simplest Repository to Train Your VLM in Pure PyTorch
 
-**Paper:** https://huggingface.co/blog/nanovlm
-**Code:** https://github.com/huggingface/nanoVLM
-**Year:** 2025
+**Paper:** https://huggingface.co/blog/nanovlm  
+**Code:** https://github.com/huggingface/nanoVLM    
+**Year:** 2025  
 
 ## Summary
 
