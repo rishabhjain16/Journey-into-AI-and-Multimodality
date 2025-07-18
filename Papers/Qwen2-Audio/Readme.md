@@ -1,5 +1,3 @@
-Of course. Here is the summary with the requested changes.
-
 # Qwen2-Audio Technical Report
 
 **Paper:** https://arxiv.org/abs/2407.10759  
@@ -14,7 +12,7 @@ This paper addresses the challenge of creating a large-scale audio-language mode
 To tackle this, the authors introduce **Qwen2-Audio**, a large audio-language model (LALM) designed to process both audio and text inputs to generate text outputs. The core idea behind this model is a simplified three-stage training process: multi-task pre-training, supervised fine-tuning (SFT), and direct preference optimization (DPO). This method is distinct from previous work because it uses natural language prompts during pre-training instead of complex hierarchical tags, which enhances generalization and instruction-following abilities. Furthermore, Qwen2-Audio is uniquely capable of understanding and responding to voice commands embedded within a larger audio stream containing other sounds or speech.
 
 ### Architecture
-![Omni](./Qwen-Audio.png)
+![Qwen2-Audio](./Qwen-Audio.png)
 
 The proposed method is built upon a dual-component architecture comprising an audio encoder and a large language model (LLM). The audio encoder is initialized from the **Whisper-large-v3** model, while the language model component is the **Qwen-7B** model. This architecture, with a total of 8.2 billion parameters, allows the model to effectively process raw audio waveforms by converting them into mel-spectrograms and then generating coherent and context-aware textual responses. The training objective is to maximize the probability of the next text token, conditioned on the audio representation and the preceding text.
 

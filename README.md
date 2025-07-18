@@ -22,7 +22,9 @@ Example
 | AST | Audio Spectrogram Transformer| [📁 AST](./Papers/AST/) | Audio Classification | 
 | LAVIS | A Library for Language-Vision Intelligence| [📁 LAVIS](./Papers/LAVIS/) | Language Vision - CLIP, BLIP, X-InstructBLIP, etc.| 
 | Qwen2.5 - Omni | An end-to-end multimodal model designed to perceive diverse modalities, including text, images, audio, and video, while simultaneously generating text and natural speech responses in a streaming manner| [📁 Qwen2.5-Omni](./Papers/Omni/) | Multi-Modal LLM, MultiTask| 
-| Qwen2-Audio| large audio-language model (LALM)| [📁 Qwen2-Audio](./Papers/Qwen2-Audio/) | Multi-Modal LLM, MultiTask| 
+| Qwen2-Audio| Large audio-language model (LALM)| [📁 Qwen2-Audio](./Papers/Qwen2-Audio/) | Multi-Modal LLM, Audio Understanding| 
+| Qwen2.5-VL| Large vision-language models (LVLMs) | [📁 Qwen2.5-VL](./Papers/Qwen2.5-VL/) | Multi-Modal LLM, Video Understanding| 
+
 
 ## Blogs and Articles:
 | Title | Link |
