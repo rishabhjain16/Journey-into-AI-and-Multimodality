@@ -1,8 +1,7 @@
 # The SpeechLLM Playbook
 
-**Paper:** https://huggingface.co/spaces/Steveeeeeeen/SpeechLLM-Playbook
-**Code:** The Hugging Face Space serves as the primary resource.
-**Year:** 2025
+**Paper:** https://huggingface.co/spaces/Steveeeeeeen/SpeechLLM-Playbook    
+**Year:** 2025  
 
 ## Summary
 
