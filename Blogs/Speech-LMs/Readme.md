@@ -22,10 +22,6 @@ This decoupled approach allows the LLM to leverage its powerful sequence modelin
 
 As "The SpeechLLM Playbook" implicitly covers the types of datasets used to train modern SpeechLLMs, which typically include tens of thousands of hours of diverse, high-quality audio recordings to learn the nuances of human speech, emotion, and non-verbal sounds.
 
-## Experiments and Results
-
-There are no experiments or results associated with this playbook, as it is a guide and collection of information rather than a specific model being evaluated. Its value is measured by its clarity and utility as an educational resource for those looking to understand or build SpeechLLMs.
-
 ## Model Components
 
 The playbook breaks down the architecture of a SpeechLLM into its fundamental parts:
