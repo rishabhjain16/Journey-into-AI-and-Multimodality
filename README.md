@@ -31,6 +31,7 @@ Example
 | Title | Link |
 |-------|------|
 | Understanding Multimodal LLMs | [📁 Multimodal-LLM](./Blogs/Multi-LLM/) |
+| SpeechLMs: LLM-Powered Text-to-Speech and Neural Audio Codecs Explored | [📁 Speech-LMs](./Blogs/Speech-LMs/) |
 
 
 ## Hugging Face Stuff: 
