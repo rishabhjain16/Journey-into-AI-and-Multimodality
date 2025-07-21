@@ -1,4 +1,4 @@
-# The SpeechLLM Playbook
+# SpeechLMs: LLM-Powered Text-to-Speech and Neural Audio Codecs Explored
 
 **Paper:** https://huggingface.co/spaces/Steveeeeeeen/SpeechLLM-Playbook    
 **Year:** 2025  
