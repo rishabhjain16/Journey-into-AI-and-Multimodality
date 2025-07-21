@@ -20,7 +20,7 @@ This decoupled approach allows the LLM to leverage its powerful sequence modelin
 
 ## Datasets Used
 
-As "The SpeechLLM Playbook" is an explanatory resource and not a research paper detailing a new model, it does not use a specific dataset for training. However, it implicitly covers the types of datasets used to train modern SpeechLLMs, which typically include tens of thousands of hours of diverse, high-quality audio recordings to learn the nuances of human speech, emotion, and non-verbal sounds.
+As "The SpeechLLM Playbook" implicitly covers the types of datasets used to train modern SpeechLLMs, which typically include tens of thousands of hours of diverse, high-quality audio recordings to learn the nuances of human speech, emotion, and non-verbal sounds.
 
 ## Experiments and Results
 
